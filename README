@@ -1,0 +1,7 @@
+Instructions
+
+This app runs on Windows 7 only.  You'll need to download the Ruby installer (tested on 1.9.2) for Windows, and 'gem install ffi'.  To test, simply enter the command:
+
+ruby uac_bypass.rb
+
+A new shell will spawn in high integrity.  Check out the source directory to see all the super fun assembly code that pulls this off.  Credit to Leo Davidson for the original exploit, and to the good folks at Metasploit for the API shellcode (Stephen Fewer) and C DLL injection examples.
